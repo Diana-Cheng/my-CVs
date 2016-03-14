@@ -1,0 +1,775 @@
+.control_wrapper{
+    width: 200px;
+    height: 400px;
+    background-color:lightgoldenrodyellow;
+    border: 15px solid #444;
+    border-radius: 30px;
+    float: left;
+}
+.control_btn{
+    width: 50px;
+    height: 50px;
+    border: 10px solid #444;
+    border-radius: 50%;
+    background-color:greenyellow;
+    margin: 10px;
+    cursor: pointer;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.control_btn:hover{
+    background-color: yellowgreen ;
+}
+.control_list{
+    width: 180px;
+    height: 100px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.control_cats{
+    width: 70px;
+    height: 30px;
+    border: 3px solid #444;
+    background: #fff;
+    border-radius: 6px;
+    color: #444;
+    font-size: 14px;;
+    line-height: 24px;
+    text-align: center;
+    margin: 8px;
+    float: left;
+    list-style: none;
+    cursor: pointer;/*-----*/
+    -webkit-transition:all 0.3s;
+    -moz-transition:all 0.3s;
+    -ms-transition:all 0.3s;
+    -o-transition:all 0.3s;
+    transition:all 0.3s;
+}
+.cats_negative:hover{
+    background: greenyellow;
+}
+.cats_active{
+    background: yellowgreen;
+}
+.contact{
+    width: 170px;
+    margin: 0 auto;
+    position: relative;
+}
+.contact h2, .works{
+    width: 150px;
+    height: 35px;;
+    margin: 10px auto;
+    border: 3px solid #444;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 6px;;
+    background: #fff;
+    text-align: center;
+    font-size: 16px;
+    line-height: 35px;
+    color: #444;
+    font-weight: 400;
+    clear: both;
+}
+.contact_info{
+    width: 180px;
+    height: 90px;
+    overflow: hidden;
+}
+.contact_box{
+    display: block;
+    list-style: none;
+    height: 30px;
+}
+.contact_box i{
+    display: inline-block;
+    width: 20px;;
+    height: 1px;
+    margin-right: 5px;
+    float: left;
+}
+.contact_qq, .contact_tel,.contact_email{
+    background-size: 100% auto;
+}
+.contact_box p{
+    float: left;
+    font-size: 12px;
+    line-height: 20px;
+}
+.github{
+    margin: 0 auto;
+    height: 30px;
+    width: 120px;
+    border-radius:6px;
+    border:3px solid #444444;
+    font-size: 14px;
+}
+.github:hover{
+    background-color: greenyellow;
+}
+.github a{
+    margin-left: 20px;
+    width: 100px;
+    line-height: 25px;
+    text-decoration: none;
+    text-align: center;
+    color: #444444;
+}
+.my_download{
+    display: block;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    border: 3px solid #444;
+    border-radius: 20px;
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    background-color: greenyellow;
+    overflow: hidden;
+    font-size: 14px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer;
+    color: #444;
+}
+.my_download:hover{
+    width: 180px;
+}
+.my_download i{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background: url(../img/down.png) no-repeat;
+    background-size: 100% auto;
+    float: left;
+}
+.my_download span{
+    line-height: 34px;
+}
+.tv_wrapper{
+    width: 700px;
+    height: 400px;
+    background-color:lightgoldenrodyellow;
+    border: 15px solid #444;
+    border-radius: 30px;
+    float: right;
+}
+.tv_inner{
+    width: 550px;
+    height: 350px;
+    background-color:#ffffff;;
+    border: 5px solid #444;
+    border-radius: 10px;
+    margin: 10px;
+}
+.tv_blank{
+    width: 540px;
+    height: 340px;
+    border: 14px solid #444;
+    border-radius: 5px;
+    position: absolute;
+    margin: 0;
+    z-index: 600;
+    overflow: hidden;
+    display: none;
+}
+.tv_blank_up{
+    width: 100%;
+    height: 50%;
+    background: #444;
+    border-radius: 5px 5px 0 0;
+    -webkit-transform: translateY(-100%);
+    -moz-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    -o-transform: translateY(-100%);
+    transform: translateY(-100%);
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.tv_blank_down{
+    width: 100%;
+    height: 50%;
+    background: #444;
+    border-radius: 0 0 5px 5px;
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    -o-transform: translateY(100%);
+    transform: translateY(100%);
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.tv_blank_up_move, .tv_blank_down_move{
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+}
+.tv_sound{
+    width: 100px;
+    height: 200px;
+    float: right;
+    overflow: hidden;
+    margin-top: -300px;
+}
+.tv_sound div{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    float:left;
+    background: #444;
+    margin: 10px  5px;
+}
+.tv_btn{
+    width: 60px;
+    height: 60px;
+    background: white;
+    border: 5px solid #444;
+    border-radius: 50%;
+    float: right;
+    margin: 0 25px 0 0;
+    cursor: pointer;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    margin-top: -70px;
+}
+.tv_btn:hover{
+    background: #444;
+}
+.tv_ps{
+    width: 170px;
+    padding: 10px;
+    height: 70px;
+    position: absolute;
+    bottom: 200px;
+    right: 0px;
+    opacity: 0;
+    font-size: 16px;
+    background: #fae2ed;
+    border: 3px solid #444;
+    border-radius: 6px;
+    text-align: center;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    transition: all 0.8s;
+    z-index: 700;
+}
+.tv_ps_move{
+    opacity: 1;
+}
+/*-----个人资料------*/
+.personal_info{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.my_photo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #444;
+    position: relative;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    margin-left: -40px;
+    z-index: 30;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    transition: all 0.8s;
+}
+.my_photo_move{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #444;
+    position: relative;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    margin-left: 0px;
+    z-index: 30;
+    -webkit-transform: scale(0.7);
+    -moz-transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    -o-transform: scale(0.7);
+    transform: scale(0.7);
+}
+.my_photo .my_photo_img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: url(../img/me3.png) no-repeat;
+    background-size: 100% auto;
+}
+.my_pic_box{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+}
+.my_pic_box .my_pic{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #fae2ed url(../img/my.png) no-repeat;
+    background-size: 100% auto;
+    border: 3px solid #444;
+    -webkit-transition: all 2s;
+    -moz-transition: all 2s;
+    -ms-transition: all 2s;
+    -o-transition: all 2s;
+    transition: all 2s;
+    -webkit-transform-origin: 100px 50%;/*----旋转图片-------*/
+    -moz-transform-origin: 100px 50%;
+    -ms-transform-origin: 100px 50%;
+    -o-transform-origin: 100px 50%;
+    transform-origin: 100px 50%;
+}
+.pic_ding{
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    top: 80%;
+    margin-top: -20px;
+    left: 93px;
+    background: #040000;
+}
+.my_photo:hover>div>div.my_pic{
+    -webkit-transform: rotate(-100deg);
+    -moz-transform: rotate(-100deg);
+    -ms-transform: rotate(-100deg);
+    -o-transform: rotate(-100deg);
+    transform: rotate(-100deg);
+}
+.my_name_box{
+    width: 120px;
+    height: 35px;
+    margin: 10px auto;
+    background:#fae2ed ;
+    border: 3px solid #666;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 30px;
+    position: absolute;
+    top: 120px;
+    left: 50%;
+    margin-left: -50px;
+    z-index: 20;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    transition: all 0.8s;
+}
+.my_name_box_move{
+    position: absolute;
+    top: 100px;
+    left: 10px;
+    margin-left: 0;
+    z-index: 20;
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    transform: scale(0.8);
+}
+.my_icon_box{
+    width: 600px;
+    height: 300px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding-top: 200px;
+}
+.icon_school, .icon_grade,.icon_location,.icon_job{
+    width: 80px;
+    height: 80px;;
+    float: left;
+    margin:0 0 0 50px;
+}
+.icon_school{
+    background: url(../img/school.png) no-repeat;
+    background-size: 100% auto;
+}
+.icon_grade{
+    background: url(../img/book.png) no-repeat;
+    background-size: 100% auto;
+}
+.icon_location{
+    background: url(../img/location.png) no-repeat;
+    background-size: 100% auto;
+}
+.icon_job {
+    background: url(../img/html.png) no-repeat;
+    background-size: 100% auto;
+}
+.tap_1,.tap_2,.tap_3,.tap_4 {
+    width: 100px;
+    height: 30px;
+    background: #fae2ed;
+    border: 3px solid #444;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 25px;
+    position: absolute;
+    top: 300px;
+    overflow: hidden;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    transition: all 0.8s;
+}
+.tap_1{
+    left: 40px;
+}
+.tap_2{
+    left: 170px;
+}
+.tap_3{
+    left: 300px;
+}
+.tap_4{
+    left: 430px;;
+}
+.tap_1 p,.tap_2 p,.tap_3 p,.tap_4 p{
+    color: #444;
+    font-size: 14px;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    transition: all 0.8s;
+}
+.tap_1:hover>p,.tap_2:hover>p,.tap_3:hover>p,.tap_4:hover>p{
+    -webkit-transform: translateY(-25px);
+    -moz-transform: translateY(-25px);
+    -ms-transform: translateY(-25px);
+    -o-transform: translateY(-25px);
+    transform: translateY(-25px);
+}
+.tap_1_move{
+    position: absolute;
+    left: 20px;
+    top: 160px;
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    transform: scale(0.8);
+}
+.tap_2_move{
+    position: absolute;
+    left: 20px;
+    top: 200px;
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    transform: scale(0.8);
+}
+.tap_3_move{
+    position: absolute;
+    left: 20px;
+    top: 240px;
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    transform: scale(0.8);
+}
+.tap_4_move{
+    position: absolute;
+    left: 20px;
+    top: 280px;
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    transform: scale(0.8);/*变为0.8倍*/
+}
+.my_skill{
+    width: 400px;
+    height: 350px;
+    position: absolute;
+    top: 0px;
+    left: 100px;
+    display: none;
+}
+.my_skill_cont{
+    width: 100%;
+    height: 100%;
+    padding-top: 80px;
+    padding-left: 100px;
+}
+.my_skill_row{
+    width: 300px;
+    height: 40px; ;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+.my_skill_row div{
+    border: 3px solid #444;
+    float: left;
+    color: #444;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+    opacity: 0;
+    font-size: 16px;
+}
+.my_skill_row .my_skill_move{
+    opacity: 1;
+}
+.html{
+    width: 180px;
+    margin-right: 10px;
+    background-color:#fae2ed ;
+    -webkit-transition: all 1s 0.2s;;
+    -moz-transition: all 1s 0.2s;
+    -ms-transition: all 1s 0.2s;
+    -o-transition: all 1s 0.2s;
+    transition: all 1s 0.2s;
+}
+.css{
+    width: 100px;
+    background-color: lightgoldenrodyellow;
+    -webkit-transition: all 2s 0.8s;
+    -moz-transition: all 2s 0.8s;
+    -ms-transition: all 2s 0.8s;
+    -o-transition: all 2s 0.8s;
+    transition: all 2s 0.8s;
+}
+.Note{
+    width: 110px;
+    background: #fae2ed;
+    -webkit-transition: all 2s;
+    -moz-transition: all 2s;
+    -ms-transition: all 2s;
+    -o-transition: all 2s;
+    transition: all 2s;
+}
+.ps{
+    width: 100px;
+    margin-right: 10px;
+    background: #fae2ed;
+    -webkit-transition: all 2s 1s;
+    -moz-transition: all 2s 1s;
+    -ms-transition: all 2s 1s;
+    -o-transition: all 2s 1s;
+    transition: all 2s 1s;
+}
+.git{
+    width: 60px;
+    margin-right: 10px;
+    background: lightgoldenrodyellow;
+    -webkit-transition: all 1.5s 2s;
+    -moz-transition: all 1.5s 2s;
+    -ms-transition: all 1.5s 2s;
+    -o-transition: all 1.5s 2s;
+    transition: all 1.5s 2s;
+}
+.js{
+    width: 100px;
+    margin-right: 10px;
+    background: lightgoldenrodyellow;
+    -webkit-transition: all 1.5s 1.5s;
+    -moz-transition: all 1.5s 1.5s;
+    -ms-transition: all 1.5s 1.5s;
+    -o-transition: all 1.5s 1.5s;
+    transition: all 1.5s  1.5s;
+}
+.bootstrap{
+    width: 180px;
+    background: lightgoldenrodyellow;
+    -webkit-transition: all 1.5s 0.5s;
+    -moz-transition: all 1.5s 0.5s;
+    -ms-transition: all 1.5s 0.5s;
+    -o-transition: all 1.5s 0.5s;
+    transition: all 1.5s 0.5s;
+}
+.sql{
+    width: 50px;
+    margin-right: 10px;
+    background: #fae2ed;
+    -webkit-transition: all 1s 1.2s;
+    -moz-transition: all 1s 1.2s;
+    -ms-transition: all 1s 1.2s;
+    -o-transition: all 1s 1.2s;
+    transition: all 1s 1.2s;
+}
+.WebStrom{
+    width: 120px;
+    margin-right: 10px;
+    background: lightgoldenrodyellow;
+    -webkit-transition: all 1s 2s;
+    -moz-transition: all 1s 2s;
+    -ms-transition: all 1s 2s;
+    -o-transition: all 1s 2s;
+    transition: all 1s 2s;
+ }
+.Sublime{
+    width: 100px;
+    background: #fae2ed;
+    -webkit-transition: all 1s 0.3s;
+    -moz-transition: all 1s 0.3s;
+    -ms-transition: all 1s 0.3s;
+    -o-transition: all 1s 0.3s;
+    transition: all 1s 0.3s;
+}
+
+.my_pro{
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top: 20px;;
+    left: 150px;
+    display: none;
+}
+
+.my_pro_cont{
+    width: 400px;
+    height: 250px;
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    -o-transform: translateY(100%);
+    transform: translateY(100%);
+}
+.my_pro_cont_move{
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-transition: all 0.5s 0.6s ease-out;
+    -moz-transition: all 0.5s 0.6s ease-out;
+    -ms-transition: all 0.5s 0.6s ease-out;
+    -o-transition: all 0.5s 0.6s ease-out;
+    transition: all 0.5s 0.8s ease-out;
+}
+.my_pro_title{
+    width: 100%;
+    font-size: 25px;
+    line-height: 30px;
+    color: #ec6b46;
+    text-align: center;
+}
+.my_pro_comp{
+    width: 100%;
+    font-size: 16px;
+    line-height: 25px;
+    color: #ec6b46;
+    text-align: center;
+}
+.my_pro_time{
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    line-height: 25px;
+    color: #444;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.my_pro_item{
+    width: 350px;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 10px 0 10px 20px;
+    list-style-type: decimal;
+}
+.my_pro_item a{
+    text-decoration: none;
+    color: #ec6b46;
+}
+.my_pro_item a:hover{
+    color: #444444;
+}
+.my_speak{
+    width: 400px;
+    height: 250px;
+    position: absolute;
+    top: 20px;
+    left: 120px;
+    display: none;
+}
+.my_speak_box{
+    width: 100%;
+    overflow: hidden;
+    border-bottom: 3px dashed #ec6b46;
+    opacity: 0;
+    margin-bottom: 10px;
+}
+.my_speak_box_1_move{
+    opacity: 1;
+    -webkit-transition: all 0.8s 0.5s;
+    -moz-transition: all 0.8s 0.5s;
+    -ms-transition: all 0.8s 0.5s;
+    -o-transition: all 0.8s 0.5s;
+    transition: all 0.8s 0.5s;
+}
+.my_speak_box_2_move{
+    opacity: 1;
+    -webkit-transition: all 0.8s 1s;
+    -moz-transition: all 0.8s 1s;
+    -ms-transition: all 0.8s 1s;
+    -o-transition: all 0.8s 1s;
+    transition: all 0.8s 1s;
+}
+.my_speak_box_3_move{
+    opacity: 1;
+    -webkit-transition: all 0.8s 1.5s;
+    -moz-transition: all 0.8s 1.5s;
+    -ms-transition: all 0.8s 1.5s;
+    -o-transition: all 0.8s 1.5s;
+    transition: all 0.8s 1.5s;
+}
+.my_speak_box_title{
+    width: 400px;
+    height: 20px;
+    margin-top: 10px;
+    text-align: center;
+    float: left;
+    font-size: 20px;
+    color: #ec6b46;
+    font-weight: 600;
+}
+.my_speak_box_info{
+    width: 400px;
+    margin-left: 0px;
+    margin-top: 10px;
+    float: left;
+}
+.my_speak_box_info p{
+    font-size: 14px;
+}
